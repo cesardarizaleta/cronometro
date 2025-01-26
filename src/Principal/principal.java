@@ -2,11 +2,10 @@ package Principal;
 
 import Classes.time;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class principal {
-    public static void main(String[] args) throws InterruptedException, IOException {
+    public static void main(String[] args) {
         time cronometro = new time();
         Scanner scanner = new Scanner(System.in);
 
@@ -19,7 +18,7 @@ public class principal {
                 cronometro.iniciar();
             } else if (input.equalsIgnoreCase("d")) {
                 cronometro.detener();
-                break; // Salir del bucle después de detener el cronómetro
+                break;
             }
         }
 

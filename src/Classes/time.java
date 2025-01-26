@@ -1,8 +1,5 @@
 package Classes;
 
-import java.io.IOException;
-import java.util.ArrayList;
-
 public class time extends Thread {
 
     private boolean corriendo;
